@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mock</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            flex-direction: wrap;
+        }
+        .grid-card > img{
+            height: 90px;
+            width: 100%;
+        }
+        .flex-cards > .flex-img-div > img{
+            height: 120px;
+            width: 170px;
+        }
+        .heading{
+            justify-content: center;
+            align-content: center;
+            text-align: center;
+            height: 110px;
+            width: 100%;
+            margin: auto;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        .grid-class{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            justify-content: center;
+            align-content: center;
+            text-align: center;
+            margin: auto;
+            width: 100%;
+            padding: 0px;
+
+        }
+        .grid-card{
+            justify-content: center;
+            align-content: center;
+            text-align: center;
+            margin: auto;
+            margin-bottom: 100px;
+            margin-top: 100px;
+            gap: 10px;
+            border: solid rgb(220, 219, 219);
+            box-shadow: 8px 8px 4px rgb(191, 192, 193);
+        }
+        .flex-class{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            width: 100%;
+        }
+        .flex-cards{
+            gap : 40px;
+            margin: auto;
+            text-align: center;
+            padding: 5px;
+            box-shadow: 3px 3px 3px blueviolet;
+            margin-bottom: 50px;
+            margin-top: 50px;
+        }
+
+        @media screen and (min-width:768px) and (max-width:1023px) {
+            .grid-class{
+                grid-template-columns: repeat(2,1fr);
+                margin-bottom: 70px;
+                margin-top: 70px;
+            }
+
+        }
+        
+        @media screen and (max-width:767px){
+            .grid-class{
+                grid-template-columns: repeat(1,1fr);
+                margin-bottom: 50px;
+                margin-top: 50px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="heading">
+        <h1>Fashion</h1>
+        <p>Separated they live in.A small river named Duden flows by their place and supplies 
+           it with necessary regelialia. It is a paradisematic country.</p>
+    </div>
+    <br>
+    <div class="grid-class">
+        <div class="grid-card">
+            <img src="https://plus.unsplash.com/premium_photo-1673514503535-0ef307e0c588?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2tldGNofGVufDB8fDB8fHww">
+            <h3>Sam</h3>
+            <h6>Teacher</h6>
+            <p>Art is to be crafted not learned.</p>
+        </div>
+        <div class="grid-card">
+            <img src="https://plus.unsplash.com/premium_photo-1673514503535-0ef307e0c588?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2tldGNofGVufDB8fDB8fHww">
+            <h3>Sam</h3>
+            <h6>Teacher</h6>
+            <p>Art is to be crafted not learned.</p>
+        </div>
+        <div class="grid-card">
+            <img src="https://plus.unsplash.com/premium_photo-1673514503535-0ef307e0c588?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2tldGNofGVufDB8fDB8fHww">
+            <h3>Sam</h3>
+            <h6>Teacher</h6>
+            <p>Art is to be crafted not learned.</p>
+        </div>
+        <div class="grid-card">
+            <img src="https://plus.unsplash.com/premium_photo-1673514503535-0ef307e0c588?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2tldGNofGVufDB8fDB8fHww">
+            <h3>Sam</h3>
+            <h6>Teacher</h6>
+            <p>Art is to be crafted not learned.</p>
+        </div>
+    </div>
+    <div class="flex-class">
+        <div class="flex-cards">
+            <div class="flex-img-div">
+                <img class="flex-img" src="https://plus.unsplash.com/premium_photo-1673514503535-0ef307e0c588?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2tldGNofGVufDB8fDB8fHww">
+            </div>
+            <div class="flex-content">
+                <h2>Fashion School</h2>
+                <p>Fashion begins where comfort and confidence sets in .</p>
+            </div>
+        </div>
+        <div class="flex-cards">
+            <div class="flex-img-div">
+                <img class="flex-img" src="https://plus.unsplash.com/premium_photo-1673514503535-0ef307e0c588?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2tldGNofGVufDB8fDB8fHww">
+            </div>
+            <div class="flex-content">
+                <h2>Fashion School</h2>
+                <p>Fashion begins where comfort and confidence sets in .</p>
+            </div>
+        </div>
+        <div class="flex-cards">
+            <div class="flex-img-div">
+                <img class="flex-img" src="https://plus.unsplash.com/premium_photo-1673514503535-0ef307e0c588?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2tldGNofGVufDB8fDB8fHww">
+            </div>
+            <div class="flex-content">
+                <h2>Fashion School</h2>
+                <p>Fashion begins where comfort and confidence sets in .</p>
+            </div>
+        </div>
+        <div class="flex-cards">
+            <div class="flex-img-div">
+                <img class="flex-img" src="https://plus.unsplash.com/premium_photo-1673514503535-0ef307e0c588?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2tldGNofGVufDB8fDB8fHww">
+            </div>
+            <div class="flex-content">
+                <h2>Fashion School</h2>
+                <p>Fashion begins where comfort and confidence sets in .</p>
+            </div>
+        </div>
+        <div class="flex-cards">
+            <div class="flex-img-div">
+                <img class="flex-img" src="https://plus.unsplash.com/premium_photo-1673514503535-0ef307e0c588?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2tldGNofGVufDB8fDB8fHww">
+            </div>
+            <div class="flex-content">
+                <h2>Fashion School</h2>
+                <p>Fashion begins where comfort and confidence sets in .</p>
+            </div>
+        </div>
+        <div class="flex-cards">
+            <div class="flex-img-div">
+                <img class="flex-img" src="https://plus.unsplash.com/premium_photo-1673514503535-0ef307e0c588?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2tldGNofGVufDB8fDB8fHww">
+            </div>
+            <div class="flex-content">
+                <h2>Fashion School</h2>
+                <p>Fashion begins where comfort and confidence sets in .</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
