@@ -57,9 +57,15 @@ let rectangle = {
     calculateArea : function() { return this.length*this.breadth; },
     calculatePerimeter : function() { return 2*(this.length+this.breadth); }
 }
-console.log(rectangle.calculateArea())
-console.log(rectangle.calculatePerimeter())
+console.log(rectangle.calculateArea());
+console.log(rectangle.calculatePerimeter());
 
-let books = {name:'terms',author:'sharpen',year: 1990,genres: ['action','thriller']}
+let books = {name:'terms',author:'sharpen',year: 1990,genres: ['action','thriller']};
 for(let key in books)
-    console.log(key+" : "+books[key])
+    console.log(key+" : "+books[key]);
+
+let student = {name : "Ash" , age : 19 , grades:[10,12,20]};
+console.log(student.name);
+console.log(student['name']);
+student.school="Green Valley High";
+console.log(student)
