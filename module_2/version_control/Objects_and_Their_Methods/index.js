@@ -41,3 +41,12 @@ function findBook(bookName){
 }
 
 console.log(findBook('first sem'));
+
+let employee = {
+    firstName : 'Cathy',
+    lastName : 'Turp',
+    hourlyWage : 250,
+    hoursWorked : 30,
+    calculateSalary : function() { return this.hourlyWage*this.hoursWorked; }
+}
+console.log(employee.calculateSalary())
