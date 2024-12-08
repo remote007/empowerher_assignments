@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calc</title>
+    <style>
+        .grid-container{
+            height : 320px;
+            width: 270px;
+            display:grid;
+            grid-template-columns: repeat(4,1fr);
+            margin: auto;
+            align-content: center;
+            text-align: center;
+            box-shadow: 2px 2px gainsboro;
+            border : solid lightgrey;
+        }
+        .grid-container > .display{
+            grid-column: span 4;
+            height : 30px;
+            box-shadow: 2px 2px gainsboro;
+            border : solid lightgrey;
+            padding:5px;
+            margin:5px;
+            border-radius: 8%;
+        }
+        .buttons{
+            align-content: center;
+            text-align: center;
+            height: 30px ;
+            box-shadow: 2px 2px gainsboro;
+            border : solid lightgrey;
+            padding:5px;
+            margin:5px;
+            border-radius: 8%;
+        }
+        .sp{
+            background-color: black;
+            color:rgb(244, 241, 241);
+        }
+        .correct{
+            background-color: red;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="display"></div>
+        <div class="buttons">1</div>
+        <div class="buttons">2</div>
+        <div class="buttons">3</div>
+        <div class="buttons sp">+</div>
+        <div class="buttons">4</div>
+        <div class="buttons">5</div>
+        <div class="buttons">6</div>
+        <div class="buttons sp">-</div>
+        <div class="buttons">7</div>
+        <div class="buttons">8</div>
+        <div class="buttons">9</div>
+        <div class="buttons sp">X</div>
+        <div class="buttons correct">C</div>
+        <div class="buttons">0</div>
+        <div class="buttons sp">=</div>
+        <div class="buttons sp">/</div>
+    </div>
+</body>
+</html>

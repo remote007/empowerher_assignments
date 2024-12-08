@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Schedule</title>
+    <style>
+        .grid-class{
+            height: 760px;
+            width : 640px;
+            justify-content: center;
+            align-content: center;
+            text-align: center;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(6,1fr);
+        }
+        .grid-class > .first-class{
+            grid-column: span 6;
+            height : 40px;
+            text-align: center;
+            font-style: bold;
+            font-size: xx-large;
+        }
+        .grid-class :nth-last-child(1){
+            grid-column: span 6;
+            height : 60px;
+            background-color: rgb(145, 216, 222) ;
+            justify-content: left;
+        }
+        .grid-class > .reg-class{
+            border-radius: 30%;  
+            height : 30px;
+            width: 115px;
+            margin: 3px;
+        }
+        .first-reg{
+            background-color: white;
+        }
+        .grid-class > .reg-class:nth-child(2n){
+            background-color: rgb(145, 216, 222);    
+        }
+        .grid-class > .reg-class:nth-child(3n+3){
+            background-color: yellow;    
+        }
+        .grid-class > .reg-class:nth-child(+6){
+            background-color: rgb(230, 172, 219);    
+        }
+    </style>
+</head>
+<body>
+    <div class="container-class">
+        <div class="grid-class">
+            <div class="first-class">Welcome</div>
+            <div class="first-reg"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="reg-class"></div>
+            <div class="last-class">Note:</div>
+            
+        </div>
+    </div>
+</body>
+</html>
