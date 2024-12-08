@@ -50,3 +50,12 @@ let employee = {
     calculateSalary : function() { return this.hourlyWage*this.hoursWorked; }
 }
 console.log(employee.calculateSalary())
+
+let rectangle = {
+    length : 200,
+    breadth : 30,
+    calculateArea : function() { return this.length*this.breadth; },
+    calculatePerimeter : function() { return 2*(this.length+this.breadth); }
+}
+console.log(rectangle.calculateArea())
+console.log(rectangle.calculatePerimeter())
