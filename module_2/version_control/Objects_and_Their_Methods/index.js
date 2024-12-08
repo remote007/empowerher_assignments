@@ -59,3 +59,7 @@ let rectangle = {
 }
 console.log(rectangle.calculateArea())
 console.log(rectangle.calculatePerimeter())
+
+let books = {name:'terms',author:'sharpen',year: 1990,genres: ['action','thriller']}
+for(let key in books)
+    console.log(key+" : "+books[key])
