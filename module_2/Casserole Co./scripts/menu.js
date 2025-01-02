@@ -16,7 +16,7 @@ export function loadMenu() {
                         <div class="menu-details">
                             <h3>${item.name}</h3>
                             <p>${item.description}</p>
-                            <p><strong>Price: $${item.price}</strong></p>
+                            <p><strong>Price: ₹ ${item.price}</strong></p>
                         </div>
                     </div>
                 `;
