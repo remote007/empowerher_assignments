@@ -1,4 +1,4 @@
-import { loadNavbar } from '../navbar.js';
+import { loadNavbar } from '../scripts/navbar.js';
 import { loadMenu } from '../menu.js';
 import { loadFooter } from '../footer.js';
 
