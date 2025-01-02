@@ -1,6 +1,6 @@
-import { loadNavbar } from 'navbar.js';
-import { loadMenu } from 'menu.js';
-import { loadFooter } from 'footer.js';
+import { loadNavbar } from '/navbar.js';
+import { loadMenu } from '/menu.js';
+import { loadFooter } from '/footer.js';
 
 window.onload = () => {
     loadNavbar();    // Dynamically load the navbar
