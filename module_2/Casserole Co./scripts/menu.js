@@ -8,7 +8,7 @@ export function loadMenu() {
             let menuHTML = '';
             menuItems.forEach(item => {
                 // Reference images locally from the img folder
-                const imageUrl = `https://remote007.github.io/empowerher_assignments/module_2/Casserole%20Co.//img/${item.imageUrl}`; // Assuming the image names are stored in the 'imageUrl' property of the API response
+                const imageUrl = `https://remote007.github.io/empowerher_assignments/module_2/Casserole%20Co./img/${item.imageUrl}`; // Assuming the image names are stored in the 'imageUrl' property of the API response
 
                 menuHTML += `
                     <div class="menu-card">
